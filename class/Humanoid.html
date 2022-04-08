@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" sizes="16x16" href="/api/img/favicon16.png">
+
+	<title>Humanoid Reference</title>
+	<link href="/api/css/ref.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/api/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/api/js/search.js"></script>
+</head>
+<body>
+	<div id="defunct" style="margin:10px auto;text-align:center; color:#333333;">
+		<div style="display:inline-block;max-width:900px;background-color:#FFE4E4;text-align:left;border:2px solid #FF4040;border-radius:10px;box-sizing:border-box;padding:10px;">
+			<h2 style="margin:0px;">This site is inactive!</h2>
+			<p style="margin-bottom:0;">
+				This site is no longer kept up to date. It has been superseded by the <a href="https://robloxapi.github.io/ref/" style="color:#3E6DCC;font-weight:bold;">Roblox API Reference</a>. Please update your bookmarks.
+			</p>
+		</div>
+	</div>
+	
+	<div id="ref-container">
+		<div id="ref-box">
+			<div id="header">
+				<span class="api-class-icon" style="background-position:-144px"></span><h1>Humanoid</h1>
+				<span id="header-items">
+					<a id="return-link" href="/api">Back to hierarchy<span class="api-member-icon" style="background-position:-48px"></span></a>
+				</span>
+			</div>
+			<div id="box-content">
+				<div id="info">
+					<div id="members">
+						<h2>Members</h2>
+						<div id="sectionProperties">
+							<h3>Properties</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Property</th>
+									<th class="col-value-type">Type</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAutoJumpEnabled">AutoJumpEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.206">+0.206</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAutoRotate">AutoRotate</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAutomaticScalingEnabled">AutomaticScalingEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.349">+0.349</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberCameraOffset">CameraOffset</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.152">+0.152</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDisplayDistanceType">DisplayDistanceType</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/HumanoidDisplayDistanceType.html">HumanoidDisplayDistanceType</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberFloorMaterial">FloorMaterial</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Material.html">Material</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.308">+0.308</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHealth">Health</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHealthDisplayDistance">HealthDisplayDistance</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHealthDisplayType">HealthDisplayType</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/HumanoidHealthDisplayType.html">HumanoidHealthDisplayType</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.271">+0.271</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHipHeight">HipHeight</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.227">+0.227</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberJump">Jump</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberJumpPower">JumpPower</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.210">+0.210</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMaxHealth">MaxHealth</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMaxSlopeAngle">MaxSlopeAngle</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.210">+0.210</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMoveDirection">MoveDirection</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.163">+0.163</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberNameDisplayDistance">NameDisplayDistance</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberNameOcclusion">NameOcclusion</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/NameOcclusion.html">NameOcclusion</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberPlatformStand">PlatformStand</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRagdollCriteria">RagdollCriteria</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/int.html">int</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.55">+0.55</a>, <a class="api-version version-removed" href="/api/diff.html#v0.59">−0.59</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRigType">RigType</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/HumanoidRigType.html">HumanoidRigType</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.233">+0.233</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRootPart">RootPart</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.299">+0.299</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSeatPart">SeatPart</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.196">+0.196</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSit">Sit</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTargetPoint">TargetPoint</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberWalkSpeed">WalkSpeed</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberWalkToPart">WalkToPart</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberWalkToPoint">WalkToPoint</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberLeftLeg">LeftLeg</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberRightLeg">RightLeg</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberTorso">Torso</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#membermaxHealth">maxHealth</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.68">+0.68</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>8 properties inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionProperties">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionFunctions">
+							<h3>Functions</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-return-type">Returns</th>
+									<th class="col-icon"></th>
+									<th class="col-name">Function</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAddAccessory">AddAccessory</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">accessory</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberBuildRigFromAttachments">BuildRigFromAttachments</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.290">+0.290</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberChangeState">ChangeState</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span> = <span class="api-value">None</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberEquipTool">EquipTool</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">tool</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetAccessories">GetAccessories</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/BodyPartR15.html">BodyPartR15</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetBodyPartR15">GetBodyPartR15</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Limb.html">Limb</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetLimb">GetLimb</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetPlayingAnimationTracks">GetPlayingAnimationTracks</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetState">GetState</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetStateEnabled">GetStateEnabled</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Instance.html">Instance</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberLoadAnimation">LoadAnimation</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animation</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMove">Move</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> <span class="api-argument-name">moveDirection</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">relativeToCamera</span> = <span class="api-value">false</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.163">+0.163</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMoveTo">MoveTo</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> <span class="api-argument-name">location</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span> = <span class="api-value">nil</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRemoveAccessories">RemoveAccessories</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberReplaceBodyPartR15">ReplaceBodyPartR15</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/BodyPartR15.html">BodyPartR15</a> <span class="api-argument-name">bodyPart</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSetClickToWalkEnabled">SetClickToWalkEnabled</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSetStateEnabled">SetStateEnabled</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTakeDamage">TakeDamage</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">amount</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberUnequipTools">UnequipTools</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberAddCustomStatus">AddCustomStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberAddStatus">AddStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberGetStatuses">GetStatuses</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberHasCustomStatus">HasCustomStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberHasStatus">HasStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberRemoveCustomStatus">RemoveCustomStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberRemoveStatus">RemoveStatus</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Instance.html">Instance</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberloadAnimation">loadAnimation</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animation</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.49">+0.49</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#membertakeDamage">takeDamage</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">amount</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.49">+0.49</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>27 functions inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionYieldFunctions">
+							<h3>YieldFunctions</h3>
+							<ul>
+								<li>1 yieldfunction inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionYieldFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionEvents">
+							<h3>Events</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Event</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAnimationPlayed">AnimationPlayed</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animationTrack</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.204">+0.204</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberClimbing">Climbing</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDied">Died</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberFallingDown">FallingDown</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberFreeFalling">FreeFalling</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGettingUp">GettingUp</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHealthChanged">HealthChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">health</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberJumping">Jumping</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMoveToFinished">MoveToFinished</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">reached</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberPlatformStanding">PlatformStanding</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRagdoll">Ragdoll</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.57">+0.57</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRunning">Running</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSeated">Seated</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">currentSeatPart</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStateChanged">StateChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">old</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">new</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStateEnabledChanged">StateEnabledChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isEnabled</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.231">+0.231</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStrafing">Strafing</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSwimming">Swimming</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.61">+0.61</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouched">Touched</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touchingPart</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">humanoidPart</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberCustomStatusAdded">CustomStatusAdded</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberCustomStatusRemoved">CustomStatusRemoved</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberStatusAdded">StatusAdded</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberStatusRemoved">StatusRemoved</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+							</table>
+							<ul>
+								<li>7 events inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionEvents">Instance</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="sectionEnums">
+						<h2>Enums</h2>
+						<table class="enum-list">
+							<tr>
+								<th class="col-icon"></th>
+								<th class="col-name">Enum</th>
+								<th class="col-history">History</th>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/BodyPartR15.html">BodyPartR15</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/HumanoidDisplayDistanceType.html">HumanoidDisplayDistanceType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/HumanoidHealthDisplayType.html">HumanoidHealthDisplayType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.271">+0.271</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/HumanoidRigType.html">HumanoidRigType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.233">+0.233</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/HumanoidStateType.html">HumanoidStateType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/Limb.html">Limb</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/Material.html">Material</a></td>
+								<td class="col-history"></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/NameOcclusion.html">NameOcclusion</a></td>
+								<td class="col-history"></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/Status.html">Status</a></td>
+								<td class="col-history"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="member-descriptions">
+						<h2>Property Descriptions</h2>
+						<div id="memberAutoJumpEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.AutoJumpEnabled<a class="permalink" href="#memberAutoJumpEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.206">+0.206</a>)</span></p>
+						</div>
+						<div id="memberAutoRotate">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.AutoRotate<a class="permalink" href="#memberAutoRotate"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></p>
+						</div>
+						<div id="memberAutomaticScalingEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.AutomaticScalingEnabled<a class="permalink" href="#memberAutomaticScalingEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.349">+0.349</a>)</span></p>
+						</div>
+						<div id="memberCameraOffset">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> Humanoid.CameraOffset<a class="permalink" href="#memberCameraOffset"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.152">+0.152</a>)</span></p>
+						</div>
+						<div id="memberDisplayDistanceType">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/HumanoidDisplayDistanceType.html">HumanoidDisplayDistanceType</a> Humanoid.DisplayDistanceType<a class="permalink" href="#memberDisplayDistanceType"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></p>
+						</div>
+						<div id="memberFloorMaterial">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Material.html">Material</a> Humanoid.FloorMaterial<a class="permalink" href="#memberFloorMaterial"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.308">+0.308</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberHealth">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.Health<a class="permalink" href="#memberHealth"></a></h3>
+						</div>
+						<div id="memberHealthDisplayDistance">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.HealthDisplayDistance<a class="permalink" href="#memberHealthDisplayDistance"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></p>
+						</div>
+						<div id="memberHealthDisplayType">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/HumanoidHealthDisplayType.html">HumanoidHealthDisplayType</a> Humanoid.HealthDisplayType<a class="permalink" href="#memberHealthDisplayType"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.271">+0.271</a>)</span></p>
+						</div>
+						<div id="memberHipHeight">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.HipHeight<a class="permalink" href="#memberHipHeight"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.227">+0.227</a>)</span></p>
+						</div>
+						<div id="memberJump">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.Jump<a class="permalink" href="#memberJump"></a></h3>
+						</div>
+						<div id="memberJumpPower">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.JumpPower<a class="permalink" href="#memberJumpPower"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.210">+0.210</a>)</span></p>
+						</div>
+						<div id="memberMaxHealth">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.MaxHealth<a class="permalink" href="#memberMaxHealth"></a></h3>
+						</div>
+						<div id="memberMaxSlopeAngle">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.MaxSlopeAngle<a class="permalink" href="#memberMaxSlopeAngle"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.210">+0.210</a>)</span></p>
+						</div>
+						<div id="memberMoveDirection">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> Humanoid.MoveDirection<a class="permalink" href="#memberMoveDirection"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.163">+0.163</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberNameDisplayDistance">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.NameDisplayDistance<a class="permalink" href="#memberNameDisplayDistance"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></p>
+						</div>
+						<div id="memberNameOcclusion">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/NameOcclusion.html">NameOcclusion</a> Humanoid.NameOcclusion<a class="permalink" href="#memberNameOcclusion"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></p>
+						</div>
+						<div id="memberPlatformStand">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.PlatformStand<a class="permalink" href="#memberPlatformStand"></a></h3>
+						</div>
+						<div id="memberRagdollCriteria">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/int.html">int</a> Humanoid.RagdollCriteria<a class="permalink" href="#memberRagdollCriteria"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.55">+0.55</a>, <a class="api-version version-removed" href="/api/diff.html#v0.59">−0.59</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">hidden</span></p>
+						</div>
+						<div id="memberRigType">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/HumanoidRigType.html">HumanoidRigType</a> Humanoid.RigType<a class="permalink" href="#memberRigType"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.233">+0.233</a>)</span></p>
+						</div>
+						<div id="memberRootPart">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.RootPart<a class="permalink" href="#memberRootPart"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.299">+0.299</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberSeatPart">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.SeatPart<a class="permalink" href="#memberSeatPart"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.196">+0.196</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberSit">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Humanoid.Sit<a class="permalink" href="#memberSit"></a></h3>
+						</div>
+						<div id="memberTargetPoint">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> Humanoid.TargetPoint<a class="permalink" href="#memberTargetPoint"></a></h3>
+						</div>
+						<div id="memberWalkSpeed">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.WalkSpeed<a class="permalink" href="#memberWalkSpeed"></a></h3>
+						</div>
+						<div id="memberWalkToPart">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.WalkToPart<a class="permalink" href="#memberWalkToPart"></a></h3>
+						</div>
+						<div id="memberWalkToPoint">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> Humanoid.WalkToPoint<a class="permalink" href="#memberWalkToPoint"></a></h3>
+						</div>
+						<div id="memberLeftLeg">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.LeftLeg<a class="permalink" href="#memberLeftLeg"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+							<p><b>Tags: </b><span class="api-tag">hidden</span></p>
+						</div>
+						<div id="memberRightLeg">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.RightLeg<a class="permalink" href="#memberRightLeg"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+							<p><b>Tags: </b><span class="api-tag">hidden</span></p>
+						</div>
+						<div id="memberTorso">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Class%253ABasePart.html">Class:BasePart</a> Humanoid.Torso<a class="permalink" href="#memberTorso"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+							<p><b>Tags: </b><span class="api-tag">hidden</span></p>
+						</div>
+						<div id="membermaxHealth">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> Humanoid.maxHealth<a class="permalink" href="#membermaxHealth"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.68">+0.68</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<h2>Function Descriptions</h2>
+						<div id="memberAddAccessory">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.AddAccessory <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">accessory</span></span> )</span><a class="permalink" href="#memberAddAccessory"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></p>
+						</div>
+						<div id="memberBuildRigFromAttachments">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.BuildRigFromAttachments <span class="api-arguments">( )</span><a class="permalink" href="#memberBuildRigFromAttachments"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.290">+0.290</a>)</span></p>
+						</div>
+						<div id="memberChangeState">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.ChangeState <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span> = <span class="api-value">None</span></span> )</span><a class="permalink" href="#memberChangeState"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></p>
+						</div>
+						<div id="memberEquipTool">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.EquipTool <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">tool</span></span> )</span><a class="permalink" href="#memberEquipTool"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></p>
+						</div>
+						<div id="memberGetAccessories">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetAccessories <span class="api-arguments">( )</span><a class="permalink" href="#memberGetAccessories"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></p>
+						</div>
+						<div id="memberGetBodyPartR15">
+							<h3><a class="api-value-type" href="/api/type/BodyPartR15.html">BodyPartR15</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetBodyPartR15 <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span><a class="permalink" href="#memberGetBodyPartR15"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+						</div>
+						<div id="memberGetLimb">
+							<h3><a class="api-value-type" href="/api/type/Limb.html">Limb</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetLimb <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span><a class="permalink" href="#memberGetLimb"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></p>
+						</div>
+						<div id="memberGetPlayingAnimationTracks">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetPlayingAnimationTracks <span class="api-arguments">( )</span><a class="permalink" href="#memberGetPlayingAnimationTracks"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></p>
+						</div>
+						<div id="memberGetState">
+							<h3><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetState <span class="api-arguments">( )</span><a class="permalink" href="#memberGetState"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></p>
+						</div>
+						<div id="memberGetStateEnabled">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetStateEnabled <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span> )</span><a class="permalink" href="#memberGetStateEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></p>
+						</div>
+						<div id="memberLoadAnimation">
+							<h3><a class="api-value-type" href="/api/type/Instance.html">Instance</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.LoadAnimation <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animation</span></span> )</span><a class="permalink" href="#memberLoadAnimation"></a></h3>
+						</div>
+						<div id="memberMove">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.Move <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> <span class="api-argument-name">moveDirection</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">relativeToCamera</span> = <span class="api-value">false</span></span> )</span><a class="permalink" href="#memberMove"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.163">+0.163</a>)</span></p>
+						</div>
+						<div id="memberMoveTo">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.MoveTo <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector3.html">Vector3</a> <span class="api-argument-name">location</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span> = <span class="api-value">nil</span></span> )</span><a class="permalink" href="#memberMoveTo"></a></h3>
+						</div>
+						<div id="memberRemoveAccessories">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.RemoveAccessories <span class="api-arguments">( )</span><a class="permalink" href="#memberRemoveAccessories"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></p>
+						</div>
+						<div id="memberReplaceBodyPartR15">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.ReplaceBodyPartR15 <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/BodyPartR15.html">BodyPartR15</a> <span class="api-argument-name">bodyPart</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span> )</span><a class="permalink" href="#memberReplaceBodyPartR15"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+						</div>
+						<div id="memberSetClickToWalkEnabled">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>Humanoid.SetClickToWalkEnabled <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span><a class="permalink" href="#memberSetClickToWalkEnabled"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSetStateEnabled">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.SetStateEnabled <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span><a class="permalink" href="#memberSetStateEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.205">+0.205</a>)</span></p>
+						</div>
+						<div id="memberTakeDamage">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.TakeDamage <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">amount</span></span> )</span><a class="permalink" href="#memberTakeDamage"></a></h3>
+						</div>
+						<div id="memberUnequipTools">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.UnequipTools <span class="api-arguments">( )</span><a class="permalink" href="#memberUnequipTools"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.51">+0.51</a>)</span></p>
+						</div>
+						<div id="memberAddCustomStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.AddCustomStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberAddCustomStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberAddStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.AddStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span><a class="permalink" href="#memberAddStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberGetStatuses">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.GetStatuses <span class="api-arguments">( )</span><a class="permalink" href="#memberGetStatuses"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberHasCustomStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.HasCustomStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberHasCustomStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberHasStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.HasStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span><a class="permalink" href="#memberHasStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberRemoveCustomStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.RemoveCustomStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberRemoveCustomStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberRemoveStatus">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.RemoveStatus <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span> = <span class="api-value">Poison</span></span> )</span><a class="permalink" href="#memberRemoveStatus"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberloadAnimation">
+							<h3><a class="api-value-type" href="/api/type/Instance.html">Instance</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.loadAnimation <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animation</span></span> )</span><a class="permalink" href="#memberloadAnimation"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.49">+0.49</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="membertakeDamage">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Humanoid.takeDamage <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">amount</span></span> )</span><a class="permalink" href="#membertakeDamage"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.49">+0.49</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<h2>Event Descriptions</h2>
+						<div id="memberAnimationPlayed">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.AnimationPlayed <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">animationTrack</span></span> )</span><a class="permalink" href="#memberAnimationPlayed"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.204">+0.204</a>)</span></p>
+						</div>
+						<div id="memberClimbing">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Climbing <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span><a class="permalink" href="#memberClimbing"></a></h3>
+						</div>
+						<div id="memberDied">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Died <span class="api-arguments">( )</span><a class="permalink" href="#memberDied"></a></h3>
+						</div>
+						<div id="memberFallingDown">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.FallingDown <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberFallingDown"></a></h3>
+						</div>
+						<div id="memberFreeFalling">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.FreeFalling <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberFreeFalling"></a></h3>
+						</div>
+						<div id="memberGettingUp">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.GettingUp <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberGettingUp"></a></h3>
+						</div>
+						<div id="memberHealthChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.HealthChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">health</span></span> )</span><a class="permalink" href="#memberHealthChanged"></a></h3>
+						</div>
+						<div id="memberJumping">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Jumping <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberJumping"></a></h3>
+						</div>
+						<div id="memberMoveToFinished">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.MoveToFinished <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">reached</span></span> )</span><a class="permalink" href="#memberMoveToFinished"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.187">+0.187</a>)</span></p>
+						</div>
+						<div id="memberPlatformStanding">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.PlatformStanding <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberPlatformStanding"></a></h3>
+						</div>
+						<div id="memberRagdoll">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Ragdoll <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberRagdoll"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.57">+0.57</a>)</span></p>
+						</div>
+						<div id="memberRunning">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Running <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span><a class="permalink" href="#memberRunning"></a></h3>
+						</div>
+						<div id="memberSeated">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Seated <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">currentSeatPart</span></span> )</span><a class="permalink" href="#memberSeated"></a></h3>
+						</div>
+						<div id="memberStateChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.StateChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">old</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">new</span></span> )</span><a class="permalink" href="#memberStateChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.147">+0.147</a>)</span></p>
+						</div>
+						<div id="memberStateEnabledChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.StateEnabledChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/HumanoidStateType.html">HumanoidStateType</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isEnabled</span></span> )</span><a class="permalink" href="#memberStateEnabledChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.231">+0.231</a>)</span></p>
+						</div>
+						<div id="memberStrafing">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Strafing <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">active</span></span> )</span><a class="permalink" href="#memberStrafing"></a></h3>
+						</div>
+						<div id="memberSwimming">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Swimming <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">speed</span></span> )</span><a class="permalink" href="#memberSwimming"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.61">+0.61</a>)</span></p>
+						</div>
+						<div id="memberTouched">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.Touched <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touchingPart</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">humanoidPart</span></span> )</span><a class="permalink" href="#memberTouched"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.265">+0.265</a>)</span></p>
+						</div>
+						<div id="memberCustomStatusAdded">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.CustomStatusAdded <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberCustomStatusAdded"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberCustomStatusRemoved">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.CustomStatusRemoved <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberCustomStatusRemoved"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberStatusAdded">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.StatusAdded <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberStatusAdded"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<div id="memberStatusRemoved">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Humanoid.StatusRemoved <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Status.html">Status</a> <span class="api-argument-name">status</span></span> )</span><a class="permalink" href="#memberStatusRemoved"></a></h3>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+					</div>
+				</div>
+				<div id="hierarchy-nav">
+					<div id="superclasses">
+						<p><b>Inherits:</b></p>
+						<ul>
+							<li><span class="api-class-icon" style="background-position:-0px"></span><a class="api-class-name" href="/api/class/Instance.html">Instance</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li><a href="/api">Main</a></li>
+				<li><a href="/api/about.html">About</a></li>
+				<li><a href="/api/faq.html">FAQ</a></li>
+				<li><a href="https://github.com/Anaminus/roblox-api-ref">Github</a></li>
+				<li><a href="https://www.roblox.com/">ROBLOX</a></li>
+			</ul>
+		</div>
+		<span>Style is totally not a blatant <a href="http://qt-project.org/">Qt Project</a> rip-off</span>
+	</div>
+</body>
+</html>

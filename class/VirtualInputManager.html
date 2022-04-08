@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" sizes="16x16" href="/api/img/favicon16.png">
+
+	<title>VirtualInputManager Reference</title>
+	<link href="/api/css/ref.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/api/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/api/js/search.js"></script>
+</head>
+<body>
+	<div id="defunct" style="margin:10px auto;text-align:center; color:#333333;">
+		<div style="display:inline-block;max-width:900px;background-color:#FFE4E4;text-align:left;border:2px solid #FF4040;border-radius:10px;box-sizing:border-box;padding:10px;">
+			<h2 style="margin:0px;">This site is inactive!</h2>
+			<p style="margin-bottom:0;">
+				This site is no longer kept up to date. It has been superseded by the <a href="https://robloxapi.github.io/ref/" style="color:#3E6DCC;font-weight:bold;">Roblox API Reference</a>. Please update your bookmarks.
+			</p>
+		</div>
+	</div>
+	
+	<div id="ref-container">
+		<div id="ref-box">
+			<div id="header">
+				<span class="api-class-icon" style="background-position:-0px"></span><h1>VirtualInputManager</h1><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.322">+0.322</a>)</span>
+				<span id="header-items">
+					<a id="return-link" href="/api">Back to hierarchy<span class="api-member-icon" style="background-position:-48px"></span></a>
+				</span>
+			</div>
+			<div id="box-content">
+				<div id="info">
+					<div id="members">
+						<h2>Members</h2>
+						<div id="sectionProperties">
+							<h3>Properties</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Property</th>
+									<th class="col-value-type">Type</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAdditionalLuaState">AdditionalLuaState</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/string.html">string</a></td>
+								</tr>
+							</table>
+							<ul>
+								<li>8 properties inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionProperties">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionFunctions">
+							<h3>Functions</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-return-type">Returns</th>
+									<th class="col-icon"></th>
+									<th class="col-name">Function</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDump">Dump</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHandleGamepadAxisInput">HandleGamepadAxisInput</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">objectId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHandleGamepadButtonInput">HandleGamepadButtonInput</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">buttonState</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHandleGamepadConnect">HandleGamepadConnect</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberHandleGamepadDisconnect">HandleGamepadDisconnect</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendAccelerometerEvent">SendAccelerometerEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendGravityEvent">SendGravityEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendGyroscopeEvent">SendGyroscopeEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatX</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatY</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatZ</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatW</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendKeyEvent">SendKeyEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isPressed</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isRepeatedKey</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendMouseButtonEvent">SendMouseButtonEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">mouseButton</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isDown</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendMouseMoveEvent">SendMouseMoveEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendMouseWheelEvent">SendMouseWheelEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isForwardScroll</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendTextInputCharacterEvent">SendTextInputCharacterEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">str</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendTouchEvent">SendTouchEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">touchId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStartPlaying">StartPlaying</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">fileName</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStartRecording">StartRecording</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStopRecording">StopRecording</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#membersendRobloxEvent">sendRobloxEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">namespace</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">detail</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">detailType</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>27 functions inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionYieldFunctions">
+							<h3>YieldFunctions</h3>
+							<ul>
+								<li>1 yieldfunction inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionYieldFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionEvents">
+							<h3>Events</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Event</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-192px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberPlaybackCompleted">PlaybackCompleted</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">additionalLuaState</span></span> )</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-192px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRecordingCompleted">RecordingCompleted</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">result</span></span> )</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>7 events inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionEvents">Instance</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="sectionEnums">
+						<h2>Enums</h2>
+						<table class="enum-list">
+							<tr>
+								<th class="col-icon"></th>
+								<th class="col-name">Enum</th>
+								<th class="col-history">History</th>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/KeyCode.html">KeyCode</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.133">+0.133</a>)</span></td>
+							</tr>
+						</table>
+					</div>
+					<div id="member-descriptions">
+						<h2>Property Descriptions</h2>
+						<div id="memberAdditionalLuaState">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/string.html">string</a> VirtualInputManager.AdditionalLuaState<a class="permalink" href="#memberAdditionalLuaState"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<h2>Function Descriptions</h2>
+						<div id="memberDump">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.Dump <span class="api-arguments">( )</span><a class="permalink" href="#memberDump"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberHandleGamepadAxisInput">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.HandleGamepadAxisInput <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">objectId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span><a class="permalink" href="#memberHandleGamepadAxisInput"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberHandleGamepadButtonInput">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.HandleGamepadButtonInput <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">buttonState</span></span> )</span><a class="permalink" href="#memberHandleGamepadButtonInput"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberHandleGamepadConnect">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.HandleGamepadConnect <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span> )</span><a class="permalink" href="#memberHandleGamepadConnect"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberHandleGamepadDisconnect">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.HandleGamepadDisconnect <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">deviceId</span></span> )</span><a class="permalink" href="#memberHandleGamepadDisconnect"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendAccelerometerEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendAccelerometerEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span><a class="permalink" href="#memberSendAccelerometerEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendGravityEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendGravityEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">z</span></span> )</span><a class="permalink" href="#memberSendGravityEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendGyroscopeEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendGyroscopeEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatX</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatY</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatZ</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">quatW</span></span> )</span><a class="permalink" href="#memberSendGyroscopeEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendKeyEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendKeyEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isPressed</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isRepeatedKey</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span><a class="permalink" href="#memberSendKeyEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendMouseButtonEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendMouseButtonEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">mouseButton</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isDown</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span><a class="permalink" href="#memberSendMouseButtonEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendMouseMoveEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendMouseMoveEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span><a class="permalink" href="#memberSendMouseMoveEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendMouseWheelEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendMouseWheelEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">isForwardScroll</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span><a class="permalink" href="#memberSendMouseWheelEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendTextInputCharacterEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendTextInputCharacterEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">str</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">pluginGui</span></span> )</span><a class="permalink" href="#memberSendTextInputCharacterEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendTouchEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.SendTouchEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">touchId</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">x</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">y</span></span> )</span><a class="permalink" href="#memberSendTouchEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.348">+0.348</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberStartPlaying">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.StartPlaying <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">fileName</span></span> )</span><a class="permalink" href="#memberStartPlaying"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberStartRecording">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.StartRecording <span class="api-arguments">( )</span><a class="permalink" href="#memberStartRecording"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberStopRecording">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.StopRecording <span class="api-arguments">( )</span><a class="permalink" href="#memberStopRecording"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="membersendRobloxEvent">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>VirtualInputManager.sendRobloxEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">namespace</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">detail</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">detailType</span></span> )</span><a class="permalink" href="#membersendRobloxEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<h2>Event Descriptions</h2>
+						<div id="memberPlaybackCompleted">
+							<h3><span class="api-member-icon" style="background-position:-192px"></span>VirtualInputManager.PlaybackCompleted <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">additionalLuaState</span></span> )</span><a class="permalink" href="#memberPlaybackCompleted"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberRecordingCompleted">
+							<h3><span class="api-member-icon" style="background-position:-192px"></span>VirtualInputManager.RecordingCompleted <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">result</span></span> )</span><a class="permalink" href="#memberRecordingCompleted"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+					</div>
+				</div>
+				<div id="hierarchy-nav">
+					<div id="superclasses">
+						<p><b>Inherits:</b></p>
+						<ul>
+							<li><span class="api-class-icon" style="background-position:-0px"></span><a class="api-class-name" href="/api/class/Instance.html">Instance</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li><a href="/api">Main</a></li>
+				<li><a href="/api/about.html">About</a></li>
+				<li><a href="/api/faq.html">FAQ</a></li>
+				<li><a href="https://github.com/Anaminus/roblox-api-ref">Github</a></li>
+				<li><a href="https://www.roblox.com/">ROBLOX</a></li>
+			</ul>
+		</div>
+		<span>Style is totally not a blatant <a href="http://qt-project.org/">Qt Project</a> rip-off</span>
+	</div>
+</body>
+</html>

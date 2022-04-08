@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" sizes="16x16" href="/api/img/favicon16.png">
+
+	<title>Chat Reference</title>
+	<link href="/api/css/ref.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/api/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/api/js/search.js"></script>
+</head>
+<body>
+	<div id="defunct" style="margin:10px auto;text-align:center; color:#333333;">
+		<div style="display:inline-block;max-width:900px;background-color:#FFE4E4;text-align:left;border:2px solid #FF4040;border-radius:10px;box-sizing:border-box;padding:10px;">
+			<h2 style="margin:0px;">This site is inactive!</h2>
+			<p style="margin-bottom:0;">
+				This site is no longer kept up to date. It has been superseded by the <a href="https://robloxapi.github.io/ref/" style="color:#3E6DCC;font-weight:bold;">Roblox API Reference</a>. Please update your bookmarks.
+			</p>
+		</div>
+	</div>
+	
+	<div id="ref-container">
+		<div id="ref-box">
+			<div id="header">
+				<span class="api-class-icon" style="background-position:-528px"></span><h1>Chat</h1>
+				<span id="header-items">
+					<a id="return-link" href="/api">Back to hierarchy<span class="api-member-icon" style="background-position:-48px"></span></a>
+				</span>
+			</div>
+			<div id="box-content">
+				<div id="info">
+					<p><b>Tags: </b><span class="api-tag">notCreatable</span>
+					</p>
+					<div id="members">
+						<h2>Members</h2>
+						<div id="sectionProperties">
+							<h3>Properties</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Property</th>
+									<th class="col-value-type">Type</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberLoadDefaultChat">LoadDefaultChat</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.275">+0.275</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>8 properties inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionProperties">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionFunctions">
+							<h3>Functions</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-return-type">Returns</th>
+									<th class="col-icon"></th>
+									<th class="col-name">Function</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberChat">Chat</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">partOrCharacter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span> = <span class="api-value">Blue</span></span> )</span></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberChatLocal">ChatLocal</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">partOrCharacter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span> = <span class="api-value">Blue</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetShouldUseLuaChat">GetShouldUseLuaChat</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.256">+0.256</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberInvokeChatCallback">InvokeChatCallback</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/ChatCallbackType.html">ChatCallbackType</a> <span class="api-argument-name">callbackType</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a> <span class="api-argument-name">callbackArguments</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRegisterChatCallback">RegisterChatCallback</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/ChatCallbackType.html">ChatCallbackType</a> <span class="api-argument-name">callbackType</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Function.html">Function</a> <span class="api-argument-name">callbackFunction</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSetIsLuaChatBackendOverwritten">SetIsLuaChatBackendOverwritten</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">value</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.264">+0.264</a>, <a class="api-version version-removed" href="/api/diff.html#v0.267">−0.267</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>27 functions inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionYieldFunctions">
+							<h3>YieldFunctions</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-return-type">Returns</th>
+									<th class="col-icon"></th>
+									<th class="col-name">YieldFunction</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberCanUserChatAsync">CanUserChatAsync</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userId</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.279">+0.279</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberCanUsersChatAsync">CanUsersChatAsync</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userIdFrom</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userIdTo</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.279">+0.279</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/string.html">string</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberFilterStringAsync">FilterStringAsync</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerFrom</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerTo</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.242">+0.242</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/string.html">string</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberFilterStringForBroadcast">FilterStringForBroadcast</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerFrom</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.247">+0.247</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/string.html">string</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberFilterStringForPlayerAsync">FilterStringForPlayerAsync</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerToFilterFor</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.174">+0.174</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>1 yieldfunction inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionYieldFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionEvents">
+							<h3>Events</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Event</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberChatted">Chatted</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span></span> )</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>7 events inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionEvents">Instance</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="sectionEnums">
+						<h2>Enums</h2>
+						<table class="enum-list">
+							<tr>
+								<th class="col-icon"></th>
+								<th class="col-name">Enum</th>
+								<th class="col-history">History</th>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/ChatCallbackType.html">ChatCallbackType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/ChatColor.html">ChatColor</a></td>
+								<td class="col-history"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="member-descriptions">
+						<h2>Property Descriptions</h2>
+						<div id="memberLoadDefaultChat">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> Chat.LoadDefaultChat<a class="permalink" href="#memberLoadDefaultChat"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.275">+0.275</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">ScriptWriteRestricted: [NotAccessibleSecurity]</span></p>
+						</div>
+						<h2>Function Descriptions</h2>
+						<div id="memberChat">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.Chat <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">partOrCharacter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span> = <span class="api-value">Blue</span></span> )</span><a class="permalink" href="#memberChat"></a></h3>
+						</div>
+						<div id="memberChatLocal">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>Chat.ChatLocal <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">partOrCharacter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span> = <span class="api-value">Blue</span></span> )</span><a class="permalink" href="#memberChatLocal"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberGetShouldUseLuaChat">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-80px"></span>Chat.GetShouldUseLuaChat <span class="api-arguments">( )</span><a class="permalink" href="#memberGetShouldUseLuaChat"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.256">+0.256</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberInvokeChatCallback">
+							<h3><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.InvokeChatCallback <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/ChatCallbackType.html">ChatCallbackType</a> <span class="api-argument-name">callbackType</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a> <span class="api-argument-name">callbackArguments</span></span> )</span><a class="permalink" href="#memberInvokeChatCallback"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></p>
+						</div>
+						<div id="memberRegisterChatCallback">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.RegisterChatCallback <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/ChatCallbackType.html">ChatCallbackType</a> <span class="api-argument-name">callbackType</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Function.html">Function</a> <span class="api-argument-name">callbackFunction</span></span> )</span><a class="permalink" href="#memberRegisterChatCallback"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.355">+0.355</a>)</span></p>
+						</div>
+						<div id="memberSetIsLuaChatBackendOverwritten">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>Chat.SetIsLuaChatBackendOverwritten <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">value</span></span> )</span><a class="permalink" href="#memberSetIsLuaChatBackendOverwritten"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.264">+0.264</a>, <a class="api-version version-removed" href="/api/diff.html#v0.267">−0.267</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<h2>YieldFunction Descriptions</h2>
+						<div id="memberCanUserChatAsync">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.CanUserChatAsync <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userId</span></span> )</span><a class="permalink" href="#memberCanUserChatAsync"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.279">+0.279</a>)</span></p>
+						</div>
+						<div id="memberCanUsersChatAsync">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.CanUsersChatAsync <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userIdFrom</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int64.html">int64</a> <span class="api-argument-name">userIdTo</span></span> )</span><a class="permalink" href="#memberCanUsersChatAsync"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.279">+0.279</a>)</span></p>
+						</div>
+						<div id="memberFilterStringAsync">
+							<h3><a class="api-value-type" href="/api/type/string.html">string</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.FilterStringAsync <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerFrom</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerTo</span></span> )</span><a class="permalink" href="#memberFilterStringAsync"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.242">+0.242</a>)</span></p>
+						</div>
+						<div id="memberFilterStringForBroadcast">
+							<h3><a class="api-value-type" href="/api/type/string.html">string</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.FilterStringForBroadcast <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerFrom</span></span> )</span><a class="permalink" href="#memberFilterStringForBroadcast"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.247">+0.247</a>)</span></p>
+						</div>
+						<div id="memberFilterStringForPlayerAsync">
+							<h3><a class="api-value-type" href="/api/type/string.html">string</a><span class="api-member-icon" style="background-position:-64px"></span>Chat.FilterStringForPlayerAsync <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">stringToFilter</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">playerToFilterFor</span></span> )</span><a class="permalink" href="#memberFilterStringForPlayerAsync"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.174">+0.174</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+						</div>
+						<h2>Event Descriptions</h2>
+						<div id="memberChatted">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>Chat.Chatted <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">part</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/string.html">string</a> <span class="api-argument-name">message</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/ChatColor.html">ChatColor</a> <span class="api-argument-name">color</span></span> )</span><a class="permalink" href="#memberChatted"></a></h3>
+						</div>
+					</div>
+				</div>
+				<div id="hierarchy-nav">
+					<div id="superclasses">
+						<p><b>Inherits:</b></p>
+						<ul>
+							<li><span class="api-class-icon" style="background-position:-0px"></span><a class="api-class-name" href="/api/class/Instance.html">Instance</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li><a href="/api">Main</a></li>
+				<li><a href="/api/about.html">About</a></li>
+				<li><a href="/api/faq.html">FAQ</a></li>
+				<li><a href="https://github.com/Anaminus/roblox-api-ref">Github</a></li>
+				<li><a href="https://www.roblox.com/">ROBLOX</a></li>
+			</ul>
+		</div>
+		<span>Style is totally not a blatant <a href="http://qt-project.org/">Qt Project</a> rip-off</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" sizes="16x16" href="/api/img/favicon16.png">
+
+	<title>UserInputService Reference</title>
+	<link href="/api/css/ref.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/api/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/api/js/search.js"></script>
+</head>
+<body>
+	<div id="defunct" style="margin:10px auto;text-align:center; color:#333333;">
+		<div style="display:inline-block;max-width:900px;background-color:#FFE4E4;text-align:left;border:2px solid #FF4040;border-radius:10px;box-sizing:border-box;padding:10px;">
+			<h2 style="margin:0px;">This site is inactive!</h2>
+			<p style="margin-bottom:0;">
+				This site is no longer kept up to date. It has been superseded by the <a href="https://robloxapi.github.io/ref/" style="color:#3E6DCC;font-weight:bold;">Roblox API Reference</a>. Please update your bookmarks.
+			</p>
+		</div>
+	</div>
+	
+	<div id="ref-container">
+		<div id="ref-box">
+			<div id="header">
+				<span class="api-class-icon" style="background-position:-0px"></span><h1>UserInputService</h1><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.80">+0.80</a>)</span>
+				<span id="header-items">
+					<a id="return-link" href="/api">Back to hierarchy<span class="api-member-icon" style="background-position:-48px"></span></a>
+				</span>
+			</div>
+			<div id="box-content">
+				<div id="info">
+					<p><b>Tags: </b><span class="api-tag">notCreatable</span>
+					</p>
+					<div id="members">
+						<h2>Members</h2>
+						<div id="sectionProperties">
+							<h3>Properties</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Property</th>
+									<th class="col-value-type">Type</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberAccelerometerEnabled">AccelerometerEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberBottomBarSize">BottomBarSize</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGamepadEnabled">GamepadEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGazeSelectionEnabled">GazeSelectionEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.262">+0.262</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGyroscopeEnabled">GyroscopeEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberInCameraGesture">InCameraGesture</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.150">+0.150</a>, <a class="api-version version-removed" href="/api/diff.html#v0.220">−0.220</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberKeyboardEnabled">KeyboardEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberLegacyInputEventsEnabled">LegacyInputEventsEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.334">+0.334</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberModalEnabled">ModalEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.118">+0.118</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMouseBehavior">MouseBehavior</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/MouseBehavior.html">MouseBehavior</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.158">+0.158</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMouseDeltaSensitivity">MouseDeltaSensitivity</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/float.html">float</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.246">+0.246</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMouseEnabled">MouseEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberMouseIconEnabled">MouseIconEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.158">+0.158</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberNavBarSize">NavBarSize</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOnScreenKeyboardAnimationDuration">OnScreenKeyboardAnimationDuration</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/double.html">double</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.308">+0.308</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOnScreenKeyboardPosition">OnScreenKeyboardPosition</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOnScreenKeyboardSize">OnScreenKeyboardSize</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOnScreenKeyboardVisible">OnScreenKeyboardVisible</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOverrideMouseIconBehavior">OverrideMouseIconBehavior</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/OverrideMouseIconBehavior.html">OverrideMouseIconBehavior</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberOverrideMouseIconEnabled">OverrideMouseIconEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>, <a class="api-version version-removed" href="/api/diff.html#v0.220">−0.220</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-112px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStatusBarSize">StatusBarSize</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-224px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchControlsEnabled">TouchControlsEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.115">+0.115</a>, <a class="api-version version-removed" href="/api/diff.html#v0.118">−0.118</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchEnabled">TouchEnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberVREnabled">VREnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.230">+0.230</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberIsVREnabled">IsVREnabled</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.229">+0.229</a>, <a class="api-version version-removed" href="/api/diff.html#v0.240">−0.240</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-96px"></span></td>
+									<td class="col-name"><a class="api-member-name api-deprecated" href="#memberUserHeadCFrame">UserHeadCFrame</a></td>
+									<td class="col-value-type"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.229">+0.229</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>8 properties inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionProperties">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionFunctions">
+							<h3>Functions</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-return-type">Returns</th>
+									<th class="col-icon"></th>
+									<th class="col-name">Function</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGamepadSupports">GamepadSupports</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">gamepadKeyCode</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetConnectedGamepads">GetConnectedGamepads</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.217">+0.217</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Instance.html">Instance</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetDeviceAcceleration">GetDeviceAcceleration</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Instance.html">Instance</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetDeviceGravity">GetDeviceGravity</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetDeviceRotation">GetDeviceRotation</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Instance.html">Instance</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetFocusedTextBox">GetFocusedTextBox</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.213">+0.213</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetGamepadConnected">GetGamepadConnected</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetGamepadState">GetGamepadState</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetKeysPressed">GetKeysPressed</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetLastInputType">GetLastInputType</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetMouseButtonsPressed">GetMouseButtonsPressed</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetMouseDelta">GetMouseDelta</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetMouseLocation">GetMouseLocation</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetNavigationGamepads">GetNavigationGamepads</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.217">+0.217</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Platform.html">Platform</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetPlatform">GetPlatform</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.156">+0.156</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/Array.html">Array</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetSupportedGamepadKeyCodes">GetSupportedGamepadKeyCodes</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGetUserCFrame">GetUserCFrame</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserCFrame.html">UserCFrame</a> <span class="api-argument-name">type</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.236">+0.236</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsGamepadButtonDown">IsGamepadButtonDown</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">gamepadKeyCode</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.330">+0.330</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsKeyDown">IsKeyDown</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsLuaTouchControls">IsLuaTouchControls</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsMouseButtonPressed">IsMouseButtonPressed</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">mouseButton</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsNavigationGamepad">IsNavigationGamepad</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadEnum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.207">+0.207</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/bool.html">bool</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberIsStudioTouchEmulationEnabled">IsStudioTouchEmulationEnabled</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.171">+0.171</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRecenterUserHeadCFrame">RecenterUserHeadCFrame</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.234">+0.234</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberRotateCamera">RotateCamera</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">positionDelta</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSendAppUISizes">SendAppUISizes</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">statusBarSize</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">navBarSize</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">bottomBarSize</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.315">+0.315</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-64px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberSetNavigationGamepad">SetNavigationGamepad</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadEnum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.207">+0.207</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-return-type"><a class="api-value-type" href="/api/type/void.html">void</a></td>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-80px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberZoomCamera">ZoomCamera</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">zoomDelta</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>27 functions inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionYieldFunctions">
+							<h3>YieldFunctions</h3>
+							<ul>
+								<li>1 yieldfunction inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionYieldFunctions">Instance</a></li>
+							</ul>
+						</div>
+						<div id="sectionEvents">
+							<h3>Events</h3>
+							<table class="member-list">
+								<tr>
+									<th class="col-icon"></th>
+									<th class="col-name">Event</th>
+									<th class="col-history">History</th>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDeviceAccelerationChanged">DeviceAccelerationChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">acceleration</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDeviceGravityChanged">DeviceGravityChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">gravity</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberDeviceRotationChanged">DeviceRotationChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">rotation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a> <span class="api-argument-name">cframe</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGamepadConnected">GamepadConnected</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberGamepadDisconnected">GamepadDisconnected</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberInputBegan">InputBegan</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberInputChanged">InputChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberInputEnded">InputEnded</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberJumpRequest">JumpRequest</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberLastInputTypeChanged">LastInputTypeChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">lastInputType</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-192px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberProcessedEvent">ProcessedEvent</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">inputObject</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">processed</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.143">+0.143</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-192px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberStatusBarTapped">StatusBarTapped</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">position</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.322">+0.322</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTextBoxFocusReleased">TextBoxFocusReleased</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">textboxReleased</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.161">+0.161</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTextBoxFocused">TextBoxFocused</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">textboxFocused</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.161">+0.161</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchEnded">TouchEnded</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchLongPress">TouchLongPress</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchMoved">TouchMoved</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchPan">TouchPan</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">totalTranslation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.130">+0.130</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchPinch">TouchPinch</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">scale</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchRotate">TouchRotate</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">rotation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchStarted">TouchStarted</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchSwipe">TouchSwipe</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/SwipeDirection.html">SwipeDirection</a> <span class="api-argument-name">swipeDirection</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">numberOfTouches</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchTap">TouchTap</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberTouchTapInWorld">TouchTapInWorld</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">position</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">processedByUI</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberUserCFrameChanged">UserCFrameChanged</a> <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserCFrame.html">UserCFrame</a> <span class="api-argument-name">type</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a> <span class="api-argument-name">value</span></span> )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.236">+0.236</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberWindowFocusReleased">WindowFocusReleased</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></td>
+								</tr>
+								<tr>
+									<td class="col-icon"><span class="api-member-icon" style="background-position:-176px"></span></td>
+									<td class="col-name"><a class="api-member-name" href="#memberWindowFocused">WindowFocused</a> <span class="api-arguments">( )</span></td>
+									<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></td>
+								</tr>
+							</table>
+							<ul>
+								<li>7 events inherited from <a class="api-class-name" href="/api/class/Instance.html#sectionEvents">Instance</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="sectionEnums">
+						<h2>Enums</h2>
+						<table class="enum-list">
+							<tr>
+								<th class="col-icon"></th>
+								<th class="col-name">Enum</th>
+								<th class="col-history">History</th>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/KeyCode.html">KeyCode</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.133">+0.133</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/MouseBehavior.html">MouseBehavior</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.158">+0.158</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/OverrideMouseIconBehavior.html">OverrideMouseIconBehavior</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/Platform.html">Platform</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.156">+0.156</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/SwipeDirection.html">SwipeDirection</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/UserCFrame.html">UserCFrame</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.236">+0.236</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/UserInputState.html">UserInputState</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+							</tr>
+							<tr>
+								<td class="col-icon"><span class="api-enum-icon"></span></td>
+								<td class="col-name"><a class="api-enum-name" href="/api/type/UserInputType.html">UserInputType</a></td>
+								<td class="col-history"><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></td>
+							</tr>
+						</table>
+					</div>
+					<div id="member-descriptions">
+						<h2>Property Descriptions</h2>
+						<div id="memberAccelerometerEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.AccelerometerEnabled<a class="permalink" href="#memberAccelerometerEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberBottomBarSize">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> UserInputService.BottomBarSize<a class="permalink" href="#memberBottomBarSize"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span>, <span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberGamepadEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.GamepadEnabled<a class="permalink" href="#memberGamepadEnabled"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberGazeSelectionEnabled">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.GazeSelectionEnabled<a class="permalink" href="#memberGazeSelectionEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.262">+0.262</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span>, <span class="api-tag">hidden</span></p>
+						</div>
+						<div id="memberGyroscopeEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.GyroscopeEnabled<a class="permalink" href="#memberGyroscopeEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberInCameraGesture">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.InCameraGesture<a class="permalink" href="#memberInCameraGesture"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.150">+0.150</a>, <a class="api-version version-removed" href="/api/diff.html#v0.220">−0.220</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberKeyboardEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.KeyboardEnabled<a class="permalink" href="#memberKeyboardEnabled"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberLegacyInputEventsEnabled">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.LegacyInputEventsEnabled<a class="permalink" href="#memberLegacyInputEventsEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.334">+0.334</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberModalEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.ModalEnabled<a class="permalink" href="#memberModalEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.118">+0.118</a>)</span></p>
+						</div>
+						<div id="memberMouseBehavior">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/MouseBehavior.html">MouseBehavior</a> UserInputService.MouseBehavior<a class="permalink" href="#memberMouseBehavior"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.158">+0.158</a>)</span></p>
+						</div>
+						<div id="memberMouseDeltaSensitivity">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/float.html">float</a> UserInputService.MouseDeltaSensitivity<a class="permalink" href="#memberMouseDeltaSensitivity"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.246">+0.246</a>)</span></p>
+						</div>
+						<div id="memberMouseEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.MouseEnabled<a class="permalink" href="#memberMouseEnabled"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberMouseIconEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.MouseIconEnabled<a class="permalink" href="#memberMouseIconEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.158">+0.158</a>)</span></p>
+						</div>
+						<div id="memberNavBarSize">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> UserInputService.NavBarSize<a class="permalink" href="#memberNavBarSize"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span>, <span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberOnScreenKeyboardAnimationDuration">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/double.html">double</a> UserInputService.OnScreenKeyboardAnimationDuration<a class="permalink" href="#memberOnScreenKeyboardAnimationDuration"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.308">+0.308</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span>, <span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberOnScreenKeyboardPosition">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> UserInputService.OnScreenKeyboardPosition<a class="permalink" href="#memberOnScreenKeyboardPosition"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberOnScreenKeyboardSize">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> UserInputService.OnScreenKeyboardSize<a class="permalink" href="#memberOnScreenKeyboardSize"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberOnScreenKeyboardVisible">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.OnScreenKeyboardVisible<a class="permalink" href="#memberOnScreenKeyboardVisible"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.281">+0.281</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberOverrideMouseIconBehavior">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/OverrideMouseIconBehavior.html">OverrideMouseIconBehavior</a> UserInputService.OverrideMouseIconBehavior<a class="permalink" href="#memberOverrideMouseIconBehavior"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberOverrideMouseIconEnabled">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.OverrideMouseIconEnabled<a class="permalink" href="#memberOverrideMouseIconEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>, <a class="api-version version-removed" href="/api/diff.html#v0.220">−0.220</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberStatusBarSize">
+							<h3><span class="api-member-icon" style="background-position:-112px"></span><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> UserInputService.StatusBarSize<a class="permalink" href="#memberStatusBarSize"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.314">+0.314</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span>, <span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberTouchControlsEnabled">
+							<h3><span class="api-member-icon" style="background-position:-224px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.TouchControlsEnabled<a class="permalink" href="#memberTouchControlsEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.115">+0.115</a>, <a class="api-version version-removed" href="/api/diff.html#v0.118">−0.118</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxPlaceSecurity</span></p>
+						</div>
+						<div id="memberTouchEnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.TouchEnabled<a class="permalink" href="#memberTouchEnabled"></a></h3>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberVREnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.VREnabled<a class="permalink" href="#memberVREnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.230">+0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberIsVREnabled">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/bool.html">bool</a> UserInputService.IsVREnabled<a class="permalink" href="#memberIsVREnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.229">+0.229</a>, <a class="api-version version-removed" href="/api/diff.html#v0.240">−0.240</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<div id="memberUserHeadCFrame">
+							<h3><span class="api-member-icon" style="background-position:-96px"></span><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a> UserInputService.UserHeadCFrame<a class="permalink" href="#memberUserHeadCFrame"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.229">+0.229</a>)</span></p>
+							<p><b>Deprecated:</b> This member is deprecated.</p>
+							<p><b>Tags: </b><span class="api-tag">readonly</span></p>
+						</div>
+						<h2>Function Descriptions</h2>
+						<div id="memberGamepadSupports">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GamepadSupports <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">gamepadKeyCode</span></span> )</span><a class="permalink" href="#memberGamepadSupports"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberGetConnectedGamepads">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetConnectedGamepads <span class="api-arguments">( )</span><a class="permalink" href="#memberGetConnectedGamepads"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.217">+0.217</a>)</span></p>
+						</div>
+						<div id="memberGetDeviceAcceleration">
+							<h3><a class="api-value-type" href="/api/type/Instance.html">Instance</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetDeviceAcceleration <span class="api-arguments">( )</span><a class="permalink" href="#memberGetDeviceAcceleration"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberGetDeviceGravity">
+							<h3><a class="api-value-type" href="/api/type/Instance.html">Instance</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetDeviceGravity <span class="api-arguments">( )</span><a class="permalink" href="#memberGetDeviceGravity"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberGetDeviceRotation">
+							<h3><a class="api-value-type" href="/api/type/Tuple.html">Tuple</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetDeviceRotation <span class="api-arguments">( )</span><a class="permalink" href="#memberGetDeviceRotation"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberGetFocusedTextBox">
+							<h3><a class="api-value-type" href="/api/type/Instance.html">Instance</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetFocusedTextBox <span class="api-arguments">( )</span><a class="permalink" href="#memberGetFocusedTextBox"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.213">+0.213</a>)</span></p>
+						</div>
+						<div id="memberGetGamepadConnected">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetGamepadConnected <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span><a class="permalink" href="#memberGetGamepadConnected"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberGetGamepadState">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetGamepadState <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span><a class="permalink" href="#memberGetGamepadState"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberGetKeysPressed">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetKeysPressed <span class="api-arguments">( )</span><a class="permalink" href="#memberGetKeysPressed"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></p>
+						</div>
+						<div id="memberGetLastInputType">
+							<h3><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetLastInputType <span class="api-arguments">( )</span><a class="permalink" href="#memberGetLastInputType"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></p>
+						</div>
+						<div id="memberGetMouseButtonsPressed">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetMouseButtonsPressed <span class="api-arguments">( )</span><a class="permalink" href="#memberGetMouseButtonsPressed"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></p>
+						</div>
+						<div id="memberGetMouseDelta">
+							<h3><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetMouseDelta <span class="api-arguments">( )</span><a class="permalink" href="#memberGetMouseDelta"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></p>
+						</div>
+						<div id="memberGetMouseLocation">
+							<h3><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetMouseLocation <span class="api-arguments">( )</span><a class="permalink" href="#memberGetMouseLocation"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></p>
+						</div>
+						<div id="memberGetNavigationGamepads">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetNavigationGamepads <span class="api-arguments">( )</span><a class="permalink" href="#memberGetNavigationGamepads"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.217">+0.217</a>)</span></p>
+						</div>
+						<div id="memberGetPlatform">
+							<h3><a class="api-value-type" href="/api/type/Platform.html">Platform</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.GetPlatform <span class="api-arguments">( )</span><a class="permalink" href="#memberGetPlatform"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.156">+0.156</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberGetSupportedGamepadKeyCodes">
+							<h3><a class="api-value-type" href="/api/type/Array.html">Array</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetSupportedGamepadKeyCodes <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span><a class="permalink" href="#memberGetSupportedGamepadKeyCodes"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberGetUserCFrame">
+							<h3><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.GetUserCFrame <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserCFrame.html">UserCFrame</a> <span class="api-argument-name">type</span></span> )</span><a class="permalink" href="#memberGetUserCFrame"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.236">+0.236</a>)</span></p>
+						</div>
+						<div id="memberIsGamepadButtonDown">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.IsGamepadButtonDown <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">gamepadKeyCode</span></span> )</span><a class="permalink" href="#memberIsGamepadButtonDown"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.330">+0.330</a>)</span></p>
+						</div>
+						<div id="memberIsKeyDown">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.IsKeyDown <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/KeyCode.html">KeyCode</a> <span class="api-argument-name">keyCode</span></span> )</span><a class="permalink" href="#memberIsKeyDown"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></p>
+						</div>
+						<div id="memberIsLuaTouchControls">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.IsLuaTouchControls <span class="api-arguments">( )</span><a class="permalink" href="#memberIsLuaTouchControls"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberIsMouseButtonPressed">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.IsMouseButtonPressed <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">mouseButton</span></span> )</span><a class="permalink" href="#memberIsMouseButtonPressed"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></p>
+						</div>
+						<div id="memberIsNavigationGamepad">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.IsNavigationGamepad <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadEnum</span></span> )</span><a class="permalink" href="#memberIsNavigationGamepad"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.207">+0.207</a>)</span></p>
+						</div>
+						<div id="memberIsStudioTouchEmulationEnabled">
+							<h3><a class="api-value-type" href="/api/type/bool.html">bool</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.IsStudioTouchEmulationEnabled <span class="api-arguments">( )</span><a class="permalink" href="#memberIsStudioTouchEmulationEnabled"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.171">+0.171</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberRecenterUserHeadCFrame">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.RecenterUserHeadCFrame <span class="api-arguments">( )</span><a class="permalink" href="#memberRecenterUserHeadCFrame"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.234">+0.234</a>)</span></p>
+						</div>
+						<div id="memberRotateCamera">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.RotateCamera <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">positionDelta</span></span> )</span><a class="permalink" href="#memberRotateCamera"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSendAppUISizes">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.SendAppUISizes <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">statusBarSize</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">navBarSize</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">bottomBarSize</span></span> )</span><a class="permalink" href="#memberSendAppUISizes"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.315">+0.315</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberSetNavigationGamepad">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-64px"></span>UserInputService.SetNavigationGamepad <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadEnum</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">enabled</span></span> )</span><a class="permalink" href="#memberSetNavigationGamepad"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.207">+0.207</a>)</span></p>
+						</div>
+						<div id="memberZoomCamera">
+							<h3><a class="api-value-type" href="/api/type/void.html">void</a><span class="api-member-icon" style="background-position:-80px"></span>UserInputService.ZoomCamera <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">zoomDelta</span></span> )</span><a class="permalink" href="#memberZoomCamera"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.131">+0.131</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<h2>Event Descriptions</h2>
+						<div id="memberDeviceAccelerationChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.DeviceAccelerationChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">acceleration</span></span> )</span><a class="permalink" href="#memberDeviceAccelerationChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberDeviceGravityChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.DeviceGravityChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">gravity</span></span> )</span><a class="permalink" href="#memberDeviceGravityChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberDeviceRotationChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.DeviceRotationChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">rotation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a> <span class="api-argument-name">cframe</span></span> )</span><a class="permalink" href="#memberDeviceRotationChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.168">+0.168</a>)</span></p>
+						</div>
+						<div id="memberGamepadConnected">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.GamepadConnected <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span><a class="permalink" href="#memberGamepadConnected"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberGamepadDisconnected">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.GamepadDisconnected <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">gamepadNum</span></span> )</span><a class="permalink" href="#memberGamepadDisconnected"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.185">+0.185</a>)</span></p>
+						</div>
+						<div id="memberInputBegan">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.InputBegan <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberInputBegan"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></p>
+						</div>
+						<div id="memberInputChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.InputChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberInputChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></p>
+						</div>
+						<div id="memberInputEnded">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.InputEnded <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">input</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberInputEnded"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.128">+0.128</a>)</span></p>
+						</div>
+						<div id="memberJumpRequest">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.JumpRequest <span class="api-arguments">( )</span><a class="permalink" href="#memberJumpRequest"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberLastInputTypeChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.LastInputTypeChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputType.html">UserInputType</a> <span class="api-argument-name">lastInputType</span></span> )</span><a class="permalink" href="#memberLastInputTypeChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.208">+0.208</a>)</span></p>
+						</div>
+						<div id="memberProcessedEvent">
+							<h3><span class="api-member-icon" style="background-position:-192px"></span>UserInputService.ProcessedEvent <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">inputObject</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">processed</span></span> )</span><a class="permalink" href="#memberProcessedEvent"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.143">+0.143</a>, <a class="api-version version-removed" href="/api/diff.html#v0.230">−0.230</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberStatusBarTapped">
+							<h3><span class="api-member-icon" style="background-position:-192px"></span>UserInputService.StatusBarTapped <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">position</span></span> )</span><a class="permalink" href="#memberStatusBarTapped"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.322">+0.322</a>)</span></p>
+							<p><b>Tags: </b><span class="api-tag">RobloxScriptSecurity</span></p>
+						</div>
+						<div id="memberTextBoxFocusReleased">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TextBoxFocusReleased <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">textboxReleased</span></span> )</span><a class="permalink" href="#memberTextBoxFocusReleased"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.161">+0.161</a>)</span></p>
+						</div>
+						<div id="memberTextBoxFocused">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TextBoxFocused <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">textboxFocused</span></span> )</span><a class="permalink" href="#memberTextBoxFocused"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.161">+0.161</a>)</span></p>
+						</div>
+						<div id="memberTouchEnded">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchEnded <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchEnded"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchLongPress">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchLongPress <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchLongPress"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchMoved">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchMoved <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchMoved"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchPan">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchPan <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">totalTranslation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchPan"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.130">+0.130</a>)</span></p>
+						</div>
+						<div id="memberTouchPinch">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchPinch <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">scale</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchPinch"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchRotate">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchRotate <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">rotation</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/float.html">float</a> <span class="api-argument-name">velocity</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/UserInputState.html">UserInputState</a> <span class="api-argument-name">state</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchRotate"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchStarted">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchStarted <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Instance.html">Instance</a> <span class="api-argument-name">touch</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchStarted"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchSwipe">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchSwipe <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/SwipeDirection.html">SwipeDirection</a> <span class="api-argument-name">swipeDirection</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/int.html">int</a> <span class="api-argument-name">numberOfTouches</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchSwipe"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchTap">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchTap <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Array.html">Array</a> <span class="api-argument-name">touchPositions</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">gameProcessedEvent</span></span> )</span><a class="permalink" href="#memberTouchTap"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.113">+0.113</a>)</span></p>
+						</div>
+						<div id="memberTouchTapInWorld">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.TouchTapInWorld <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/Vector2.html">Vector2</a> <span class="api-argument-name">position</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/bool.html">bool</a> <span class="api-argument-name">processedByUI</span></span> )</span><a class="permalink" href="#memberTouchTapInWorld"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.297">+0.297</a>)</span></p>
+						</div>
+						<div id="memberUserCFrameChanged">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.UserCFrameChanged <span class="api-arguments">( <span class="api-argument"><a class="api-value-type" href="/api/type/UserCFrame.html">UserCFrame</a> <span class="api-argument-name">type</span></span>, <span class="api-argument"><a class="api-value-type" href="/api/type/CoordinateFrame.html">CoordinateFrame</a> <span class="api-argument-name">value</span></span> )</span><a class="permalink" href="#memberUserCFrameChanged"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.236">+0.236</a>)</span></p>
+						</div>
+						<div id="memberWindowFocusReleased">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.WindowFocusReleased <span class="api-arguments">( )</span><a class="permalink" href="#memberWindowFocusReleased"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></p>
+						</div>
+						<div id="memberWindowFocused">
+							<h3><span class="api-member-icon" style="background-position:-176px"></span>UserInputService.WindowFocused <span class="api-arguments">( )</span><a class="permalink" href="#memberWindowFocused"></a></h3>
+							<p><b>Version History:</b><span class="history-list">(<a class="api-version version-added" href="/api/diff.html#v0.189">+0.189</a>)</span></p>
+						</div>
+					</div>
+				</div>
+				<div id="hierarchy-nav">
+					<div id="superclasses">
+						<p><b>Inherits:</b></p>
+						<ul>
+							<li><span class="api-class-icon" style="background-position:-0px"></span><a class="api-class-name" href="/api/class/Instance.html">Instance</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li><a href="/api">Main</a></li>
+				<li><a href="/api/about.html">About</a></li>
+				<li><a href="/api/faq.html">FAQ</a></li>
+				<li><a href="https://github.com/Anaminus/roblox-api-ref">Github</a></li>
+				<li><a href="https://www.roblox.com/">ROBLOX</a></li>
+			</ul>
+		</div>
+		<span>Style is totally not a blatant <a href="http://qt-project.org/">Qt Project</a> rip-off</span>
+	</div>
+</body>
+</html>
